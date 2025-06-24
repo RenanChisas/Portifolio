@@ -36,9 +36,9 @@ export function About() {
             projetos variados, desde páginas simples até sistemas com{" "}
             <strong>backend</strong>, <strong>APIs</strong> e{" "}
             <strong>automação</strong>. Tenho prática com{" "}
-            <strong>Git/GitHub</strong>
+            <strong>Git/GitHub </strong>
             para controle de versão, além de experiência com métodos ágeis, como
-            <strong>Scrum</strong> e <strong>Kanban</strong>.
+            <strong> Scrum</strong> e <strong>Kanban</strong>.
           </p>
         </div>
         <div className={styles.aboutSkill}>
