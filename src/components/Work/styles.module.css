@@ -1,0 +1,149 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10rem;
+  background-color: #f7f7f7;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  width: 60%;
+  color: #72c1f2;
+  font-weight: 900;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+.title h1 {
+  color: #72c1f2;
+  font-size: clamp(2rem, 2vw, 2rem);
+}
+
+.title p {
+  color: #72c1f2;
+  font-size: clamp(1rem, 2vw, 1rem);
+  line-height: 1.6;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #72c1f2;
+  border-radius: 1rem;
+  max-width: 25rem;
+}
+
+.cardtitle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+.cardMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 8rem;
+}
+.cardMenu h2 {
+  color: #72c1f2;
+}
+.cardMenu p {
+  color: #72c1f2;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.cardBottom {
+  display: flex;
+  padding-top: 0.8rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardBottom p {
+  color: white;
+  padding: 0.3rem;
+  background-color: #72c1f2;
+  border-radius: 0.5rem;
+}
+
+.cards img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0rem 0rem;
+  height: auto;
+}
+
+.cardBottom div {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.cardBottom div a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  padding: 0.3rem;
+  background-color: #72c1f2;
+  border-radius: 0.5rem;
+
+  display: flex;
+  align-items: center;
+}
+.cardBottom div a:hover {
+  transform: scale(1.1);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+.projectItens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 8rem;
+}
+
+.desactive {
+  pointer-events: none;
+  opacity: 0.6;
+  background-color: #b5dff5;
+  color: #ffffffa8;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .title {
+    width: 95%;
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    max-width: 100%;
+  }
+
+  .cardBottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cardBottom div {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
