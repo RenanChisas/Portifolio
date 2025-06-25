@@ -138,6 +138,29 @@
 
   .cardBottom {
     flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .cardBottom div {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1054px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    max-width: 46%;
+  }
+
+  .cardBottom {
+    flex-direction: column;
+    gap: 1rem;
     align-items: flex-start;
   }
 
