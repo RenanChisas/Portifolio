@@ -4,6 +4,17 @@ import { describe } from "node:test";
 
 const itens = [
   {
+    id: 6,
+    name: "SaleHunter",
+    describe:
+      "Sistema de comparação de preços de jogos em lojas digitais, com funcionalidades de login e favoritos, permitindo ao usuário encontrar os melhores preços e salvar seus jogos preferidos.",
+    ano: "2023",
+    image: "/content/projectsImg/SaleHunter.png",
+    code: "https://github.com/ES1-saleHunter",
+    deploy: null,
+  },
+
+  {
     id: 1,
     name: "Formulario Para Notas De Carros",
     describe:
