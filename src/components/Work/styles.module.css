@@ -105,12 +105,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: center;
 }
 .projectItens {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
   width: 80%;
 }
 
@@ -168,4 +167,56 @@
     width: 100%;
     justify-content: space-between;
   }
+}
+
+.filtro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtrostack {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+
+.filtroano {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.filtroano button {
+  cursor: pointer;
+  padding: 0.7rem;
+  border: none;
+  background-color: #b5dff5;
+  border-radius: 0.5rem;
+}
+
+.filtroano button:hover {
+  border: none;
+  background-color: #72c1f2;
+}
+
+.filtroano .active {
+  border: none;
+  background-color: #72c1f2;
+}
+
+.cardSkill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.cardSkill a {
+  padding: 0.5rem;
+  min-width: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #72c1f2;
+  color: #f7f7f7;
+  border-radius: 0.4rem;
 }
