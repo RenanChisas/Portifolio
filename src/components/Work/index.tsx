@@ -63,6 +63,16 @@ const itens = [
     code: "https://github.com/RenanChisas/LandingPageNaruto",
     deploy: "https://landing-page-naruto-zeta.vercel.app/",
   },
+    {
+    name: "Chisay",
+    describe:
+      "Um sistema onde você pode praticar seu inglês de uma maneira gameficada",
+    ano: "2025",
+    tech: ["FRONTEND", "REACT", "CSS"],
+    image: "/content/projectsImg/Chisay.png",
+    code: "https://github.com/RenanChisas/Chisay",
+    deploy: "https://chisay.vercel.app/",
+  },
 ];
 
 type work = {
